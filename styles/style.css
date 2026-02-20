@@ -3,7 +3,7 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding: 91px 39px 96px 53px;
-  margin-right: -5px;
+  margin-right: 1px;
 }
 
 .header__menu {
@@ -38,7 +38,7 @@
   width: 137px;
   height: 105px;
   justify-self: center;
-  margin: 1px 15px 0 0;
+  margin: 1px 12px 0 0;
 }
 
 .header__address {
@@ -278,7 +278,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: start;
-  padding: 20px 48px 70px 55px;
+  padding: 20px 48px 75px 55px;
   font-size: 18px;
 }
 
