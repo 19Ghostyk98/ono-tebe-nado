@@ -2,8 +2,8 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 91px 48px 96px 48px;
-  margin-right: -10px;
+  padding: 91px 39px 96px 53px;
+  margin-right: -5px;
 }
 
 .header__menu {
@@ -38,7 +38,7 @@
   width: 137px;
   height: 105px;
   justify-self: center;
-  margin: 1px -14px 0 -30px;
+  margin: 1px 15px 0 0;
 }
 
 .header__address {
@@ -89,12 +89,14 @@
   line-height: 1.15;
   letter-spacing: 30px;
   text-transform: uppercase;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .aligned-text {
   display: block;
   margin-bottom: 19px;
-  margin-left: 0px;
+  margin-left: -2px;
 }
 
 .aligned-text_center {
@@ -113,7 +115,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 106px;
+  margin-top: 87px;
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
@@ -127,7 +129,7 @@
   word-spacing: 19px;
   text-transform: uppercase;
   margin-top: 5px;
-  margin-left: -2px;
+  margin-left: 0px;
 }
 
 .bet-button {
@@ -139,7 +141,7 @@
   font-size: 22px;
   background-color: transparent;
   color: #ffffff;
-  margin-right: 3px;
+  margin-right: 0px;
 }
 
 .lots {
@@ -222,7 +224,7 @@
 }
 
 .lots__look-more-link {
-  margin-left: 37px;
+  margin-left: 40px;
   margin-top: 7px;
   font-size: 20px;
   text-decoration: underline;
@@ -234,7 +236,7 @@
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 25px;
-  padding: 153px 28px 160px 21px;
+  padding: 153px 28px 160px 23px;
 }
 
 .about__logo {
@@ -254,7 +256,7 @@
 }
 
 .about__title {
-  margin: 100px 0 102px 0;
+  margin: 102px 0 100px 1px;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
@@ -276,7 +278,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: start;
-  padding: 20px 54px 60px 50px;
+  padding: 20px 48px 60px 55px;
   font-size: 18px;
 }
 
