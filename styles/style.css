@@ -278,7 +278,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: start;
-  padding: 20px 48px 65px 55px;
+  padding: 20px 48px 70px 55px;
   font-size: 18px;
 }
 
