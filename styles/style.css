@@ -51,11 +51,11 @@
   font-style: normal;
   line-height: 1.35;
   font-size: 18px;
-  margin-left: 2px;
 }
 
 .footer__address {
   max-width: 240px;
+  margin-left: -2px;
 }
 .address a {
   display: block;
@@ -263,6 +263,7 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  margin-right: 4px;
 }
 
 .about__text p {
