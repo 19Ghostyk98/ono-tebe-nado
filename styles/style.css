@@ -26,7 +26,7 @@
 
 .header__link {
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 3px;
 }
 
 .header__link_active {
@@ -35,24 +35,24 @@
 
 .header__logo {
   display: block;
-  width: 130px;
+  width: 137px;
   height: 105px;
   justify-self: center;
-  margin: 1px -5px 0 -30px;
+  margin: 1px -14px 0 -30px;
 }
 
 .header__address {
-  max-width: 240px;
+  max-width: 236px;
   justify-self: end;
-  margin-right: -10px;
+  margin-right: 18px;
 }
 
 .address {
   font-style: normal;
   line-height: 1.35;
   font-size: 18px;
-  max-width: 265px;
-  margin-left: -2px;
+  max-width: 236px;
+  margin-left: 2px;
 }
 
 .address a {
@@ -92,17 +92,17 @@
 .aligned-text {
   display: block;
   margin-bottom: 19px;
-  margin-left: -3px;
+  margin-left: 0px;
 }
 
 .aligned-text_center {
   text-align: center;
-  margin-left: 24px;
+  margin-left: 27px;
 }
 
 .aligned-text_right {
   text-align: right;
-  margin-right: -25px;
+  margin-right: -29px;
 }
 
 .cover__description {
@@ -156,7 +156,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
-  margin: 24px 0 24px 0;
+  margin: 27px 0 24px 0;
   list-style: none;
 }
 
@@ -203,7 +203,8 @@
   line-height: 1.2;
   text-decoration: underline;
   text-transform: uppercase;
-  margin-top: 9px;
+  margin-top: 4px;
+  text-underline-offset: 2px;
 }
 
 .card__text {
@@ -217,10 +218,11 @@
 
 .lots__look-more-link {
   margin-left: 37px;
-  margin-top: 10px;
+  margin-top: 7px;
   font-size: 20px;
   text-decoration: underline;
   display: inline-block;
+  text-underline-offset: 4px;
 }
 
 .about {
